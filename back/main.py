@@ -1,4 +1,11 @@
 
+'''
+Simple python Backend Using Fast Api, 
+No dependencies , no yarn no npm or any other boring library !!
+Just clear and simple rest Api !!
+Wrap data inside a dictionnary the send it !!
+I love back end !!! :) !! 
+'''
 from fastapi import FastAPI,Request
 from typing import Optional
 import requests
@@ -6,8 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-origins = ['*'
-]
+origins = ['*']
 
 app.add_middleware(
     CORSMiddleware,
